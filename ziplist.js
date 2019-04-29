@@ -1,4 +1,4 @@
-function ziplist(arrayOne, arrayTwo){
+function zipList(arrayOne, arrayTwo){
   let newArray =[];
   let i = 0;
   while(i<=arrayTwo.length-1){
@@ -11,7 +11,7 @@ function ziplist(arrayOne, arrayTwo){
 let arrOne = [1, 2, 3];
 let arrTwo = ['a', 'b', 'c'];
 
-console.log(ziplist(arrOne, arrTwo));
+console.log(zipList(arrOne, arrTwo));
 
 function zipListTheSimpleWay(arrayOne, arrayTwo){
   let zipArrays = _.zip(arrayOne, arrayTwo);
